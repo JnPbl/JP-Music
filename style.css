@@ -182,6 +182,12 @@ section{
     color: white;
 }
 
+#contact {
+    position: relative;
+    overflow: hidden;
+}
+
+
 #contact form{
     display: flex;
     flex-direction: column;
@@ -190,13 +196,15 @@ section{
     padding: 15px;
     margin: auto;
     font-family: var(--font-secundario);
+    
 }
 
 #contact label, #contact input, #contact textarea{
     width: 100%;
     margin: 10px 0 ;
     border: none;
-    outline: none;  
+    outline: none;
+      
 }
 
 
@@ -208,5 +216,81 @@ section{
     
 }
 
+
+
+ .skewed {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--color-primario);
+    z-index: -1;
+    transform: skewX(80deg);
+    transform-origin: bottom left;
+  }
+
+
+  footer{
+    background-color: #f96230
+  }
+
+  .container{
+    width: 30%;
+    padding: 30px;
+
+  }
+
+  .container p{
+    font-size: 40px;
+    
+  }
+  
+  .correo, .celular {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+   font-size: 30px;
+
+  }
+
+  .correo .correo-ic,
+  .celular .celular-ic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+
+  }
+
+  .correo a,
+  .celular a{
+    font-family: var(--font-secundario);
+    color: white;
+    padding-left: 15px;
+    text-decoration: none;
+    transition: 0.3s transform;
+  }
+
+  .correo a:hover{
+    color: black;
+    transform: scale(1.03);
+  }
+
+  .celular a:hover{
+    color: black;
+    transform: scale(1.03);
+  }
+
+
+
+  
+
+
+
+ 
 
 
