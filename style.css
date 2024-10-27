@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -12,6 +13,7 @@
 }
 body{
     font-family: var(--font-primario);
+    
 }
 
 header{
@@ -21,6 +23,7 @@ header{
     align-items: center;
     font-family: var(--font-primario);
     border-bottom: 3px solid black;
+    
 }
 
 header div{
@@ -283,6 +286,30 @@ section{
   .celular a:hover{
     color: black;
     transform: scale(1.03);
+  }
+
+  .btn-whatsap{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: rgb(51, 207, 106);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 6px 11px 39px -9px black;
+    transition: 0.2s transform;
+  }
+
+  .btn-whatsap i{
+    font-size: 70px;
+    color: white;
+  }
+
+  .btn-whatsap:hover{
+    transform: scale(1.08);
   }
 
 
