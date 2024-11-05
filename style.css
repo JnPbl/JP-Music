@@ -183,6 +183,8 @@ section{
     background-color: var(--color-secundario);
     border: none;
     color: white;
+    cursor: pointer;
+    transition: 0.3s transform;
 }
 
 #contact {
@@ -219,6 +221,10 @@ section{
     
 }
 
+#contact button:hover{
+    background-color:var(--color-primario);
+    transform: scale(1.03);
+}
 
 
  .skewed {
