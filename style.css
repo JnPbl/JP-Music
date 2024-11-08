@@ -341,7 +341,7 @@ section{
     }
 
     #banner h1{
-        font-size: 50px;
+        font-size: 35px;
     }
 
     #banner p{
@@ -357,7 +357,7 @@ section{
     }
 
     header nav ul li a{
-        font-size: 25px;
+        font-size: 15px;
     }
 
     header nav ul{
@@ -379,7 +379,7 @@ section{
     }
 
     #product .container-product{
-        width: 380px;
+        width: 100%;
     }
   }
 
